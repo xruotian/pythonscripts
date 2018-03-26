@@ -1,0 +1,5 @@
+fo=open("youj.txt","wb")
+print ("the file name is:", fo.name)
+fid = fo.fileno()
+print ("the file descriptions are:", fid)
+fo.close()
